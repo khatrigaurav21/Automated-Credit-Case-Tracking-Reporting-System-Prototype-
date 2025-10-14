@@ -1,0 +1,2 @@
+# Automated-Credit-Case-Tracking-Reporting-System-Prototype-
+Analysts often had to manually monitor that log throughout the day to see if new cases appeared. At the end of the week, a senior analyst or manager would compile a summary of all completed and pending cases to share with stakeholders. To explore how AI could improve this workflow, I built an automated credit case tracking system using Zapier.
