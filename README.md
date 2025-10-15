@@ -1,7 +1,22 @@
 # Automated-Credit-Case-Tracking-Reporting-System-Prototype (Zapier + Google Sheets)-
+
 Prototype demonstrating a no-code automation to notify analysts and auto-generate status summaries when credit cases are added or updated.
 
 **Project context:** A simplified prototype based on a process I led as Unit Lead at the Royal Bank of Scotland — where credit case intake and queue monitoring created a persistent operational bottleneck.
+
+---
+
+## Demo
+
+![Demo GIF](assets/demo.gif)
+
+> Short preview of the automation in action. See ssets/demo.mp4 for a higher-quality version.
+
+---
+
+## Architecture
+
+![Architecture Diagram](docs/architecture.png)
 
 ---
 
@@ -24,18 +39,18 @@ This automation replaces the need to manually check queues, providing real-time 
 
 ---
 
-## What’s in this repo
-- `assets/` — demo recording, GIF, screenshots
-- `docs/HOWTO.md` — step-by-step instructions to reproduce the Zap (manual)
-- `docs/architecture.png` — simple flow diagram
-- `samples/sample-cases.csv` — sample case log to import into Google Sheets
-- `README.md` — (this file)
-- `CONTRIBUTING.md` — how to contribute or suggest edits
+## Repository structure
+- ssets/ — demo recording, GIF, screenshots
+- docs/HOWTO.md — step-by-step instructions to reproduce the Zap (manual)
+- docs/architecture.png — simple flow diagram
+- samples/sample-cases.csv — sample case log to import into Google Sheets
+- README.md — (this file)
+- CONTRIBUTING.md — how to contribute or suggest edits
 
 ---
 
 ## How to reproduce (high level)
-1. Copy `samples/sample-cases.csv` into a new Google Sheet (or create your own case log).
+1. Copy samples/sample-cases.csv into a new Google Sheet (or create your own case log).
 2. In Zapier, create a new Zap:
    - Trigger: **Google Sheets → New or Updated Spreadsheet Row**
    - Action: Format or Filter (optional) to select only relevant status changes
@@ -44,11 +59,11 @@ This automation replaces the need to manually check queues, providing real-time 
 3. Test the Zap: add a new row in the sheet and confirm the email/Slack message arrives.
 4. Export a short recording (screen capture) of the test for the LinkedIn proof.
 
-> See `docs/HOWTO.md` for more granular steps and recommended Zap field mappings.
+> See docs/HOWTO.md for more granular steps and recommended Zap field mappings.
 
 ---
 
-## Assets & Proof quality
+## Assets and proof quality
 - Demo must be ≤ 30s, clear, and minimal UI. Include captions overlayed or short text in README describing each clip.
 - Prefer MP4 for clarity; GIF for embedded preview in README (smaller GIFs work best).
 - If the video is large, consider Git LFS (see note below).
@@ -64,4 +79,3 @@ If your demo video is larger than 50MB, consider:
 
 ## Contributing
 Please open an issue for suggestions or to request help reproducing the Zap steps. Pull requests are welcome for improving docs or visual assets.
-
