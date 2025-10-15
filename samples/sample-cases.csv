@@ -1,0 +1,5 @@
+case_id,client_name,assigned_to,status,created_at,updated_at
+1001,Acme Corp,Analyst A,New,2025-10-01,2025-10-01
+1002,Globex LLC,Analyst B,In Progress,2025-10-02,2025-10-03
+1003,Wayne Enterprises,Analyst C,Completed,2025-10-03,2025-10-04
+
