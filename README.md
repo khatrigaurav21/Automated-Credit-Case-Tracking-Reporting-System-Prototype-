@@ -1,8 +1,8 @@
-# Automated-Credit-Case-Tracking-Reporting-System-Prototype (Zapier + Google Sheets)-
+Automated-Credit-Case-Tracking-Reporting-System-Prototype (Zapier + Google Sheets)-
 
 Prototype demonstrating a no-code automation to notify analysts and auto-generate status summaries when credit cases are added or updated.
 
-**Project context:** A simplified prototype based on a process I led as Unit Lead at the Royal Bank of Scotland — where credit case intake and queue monitoring created a persistent operational bottleneck.
+Project context: A simplified prototype based on a process I led as Unit Lead at the Royal Bank of Scotland — where credit case intake and queue monitoring created a persistent operational bottleneck.
 
 ---
 
@@ -20,7 +20,7 @@ Prototype demonstrating a no-code automation to notify analysts and auto-generat
 
 ---
 
-## LinkedIn Post (final)
+## LinkedIn Post
 **How many hours do skilled analysts lose just checking if new cases have been added to their queue?**  
 In my time as a Unit Lead at the Royal Bank of Scotland, I saw firsthand how this necessary but manual process slowed credit operations.
 
@@ -35,15 +35,14 @@ To explore how modern tools could improve this workflow, I built an **automated 
 
 This automation replaces the need to manually check queues, providing real-time visibility and eliminating reporting delays.
 
-> **PM takeaway:** This is the mindset I bring to project management — solving operational inefficiencies with practical, no-code automation. By integrating simple tools like Zapier into existing systems, we can improve visibility, reduce wait times, and let skilled professionals focus on high-value work like analysis and exception handling, rather than data entry.
+> **PM takeaway:** This is the mindset one should bring to project management — solving operational inefficiencies with practical, no-code automation. By integrating simple tools like Zapier into existing systems, we can improve visibility, reduce wait times, and let skilled professionals focus on high-value work like analysis and exception handling, rather than data entry.
 
 ---
 
 ## Repository structure
-- ssets/ — demo recording, GIF, screenshots
+- assets/ — demo recording, GIF, screenshots
 - docs/HOWTO.md — step-by-step instructions to reproduce the Zap (manual)
 - docs/architecture.png — simple flow diagram
-- samples/sample-cases.csv — sample case log to import into Google Sheets
 - README.md — (this file)
 - CONTRIBUTING.md — how to contribute or suggest edits
 
@@ -60,20 +59,6 @@ This automation replaces the need to manually check queues, providing real-time 
 4. Export a short recording (screen capture) of the test for the LinkedIn proof.
 
 > See docs/HOWTO.md for more granular steps and recommended Zap field mappings.
-
----
-
-## Assets and proof quality
-- Demo must be ≤ 30s, clear, and minimal UI. Include captions overlayed or short text in README describing each clip.
-- Prefer MP4 for clarity; GIF for embedded preview in README (smaller GIFs work best).
-- If the video is large, consider Git LFS (see note below).
-
----
-
-## Notes on large files
-If your demo video is larger than 50MB, consider:
-- Using **Git LFS** to store large binary files, or
-- Hosting the video on YouTube (unlisted) or Vimeo and embedding a link in the README instead of uploading the MP4 to the repo.
 
 ---
 
