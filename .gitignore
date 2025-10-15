@@ -1,0 +1,16 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore cache or compiled code
+__pycache__/
+*.pyc
+
+# Ignore large demo video files (optional)
+*.mp4
+*.mov
+*.avi
